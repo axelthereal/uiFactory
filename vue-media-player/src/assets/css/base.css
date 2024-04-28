@@ -1,5 +1,5 @@
 :root {
-  --bg-background: #000104;
+  --body-background: #000104;
 
   --body-text-color: #ffffff;
 
@@ -43,7 +43,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--bg-background) !important;
+  background-color: var(--body-background) !important;
   color: var(--body-text-color) !important;
 }
 
@@ -56,8 +56,14 @@ body {
   font-weight: 601 !important;
   line-height: 1.1;
 }
+.fw-large {
+  font-weight: 650 !important;
+  line-height: 1.1;
+}
 
 .body-center {
-  margin-top: 50px;
-  margin-left: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
