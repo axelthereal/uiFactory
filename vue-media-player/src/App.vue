@@ -1,7 +1,9 @@
 <template>
   <header>
   </header>
-  <RouterView />
+  <main class="container col-11 col-lg-9">
+    <RouterView />
+  </main>
 </template>
 
 <script>
