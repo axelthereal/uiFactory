@@ -7,6 +7,10 @@
 
   --fs-x-large: calc(2.3rem + 4.5vw);
   --fs-large: calc(1.625rem + 4.5vw);
+  --fs-medium-lg: calc(1.325rem + 4.5vw);
+  --fs-medium: calc(0.5rem + 1.5vw);
+
+  --line-height-sm: 1;
 }
 
 *,
@@ -21,9 +25,8 @@ ul {
   list-style-type: none !important;
 }
 
-button,
-input,
-textarea {
+.btn,
+.form-control {
   box-shadow: none !important;
 }
 
@@ -56,11 +59,18 @@ body {
   font-weight: 601 !important;
   line-height: 1.1;
 }
+.fs-medium {
+  font-size: var(--fs-medium) !important;
+}
+.fs-medium-lg {
+  font-size: var(--fs-medium-lg) !important;
+}
 .fw-large {
   font-weight: 650 !important;
-  line-height: 1.1;
 }
-
+.line-sm {
+  line-height: var(--line-height-sm) !important;
+}
 .body-center {
   position: absolute;
   top: 50%;
