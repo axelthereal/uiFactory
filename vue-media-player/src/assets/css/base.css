@@ -1,5 +1,6 @@
 :root {
-  --bg-background: red;
+  --bg-background: #000104;
+  --body-text-color: #ffffff;
   --bg-image: url("/cdn/images/vuebg.jpg");
 }
 
@@ -22,5 +23,6 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--bg-image);
+  background-color: var(--bg-background) !important;
+  color: var(--body-text-color) !important;
 }
