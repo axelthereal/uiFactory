@@ -1,6 +1,9 @@
 <template>
   <main>
-    <h1 class="display-1 fw-bold">Listen to your songs.</h1>
+    <h1 class="fs-large text-center mx-auto w-80">Listen to<br>your
+      favorite
+      songs.
+    </h1>
   </main>
 </template>
 

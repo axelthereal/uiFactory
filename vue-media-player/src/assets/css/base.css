@@ -1,7 +1,12 @@
 :root {
   --bg-background: #000104;
+
   --body-text-color: #ffffff;
+
   --bg-image: url("/cdn/images/vuebg.jpg");
+
+  --fs-x-large: calc(2.3rem + 4.5vw);
+  --fs-large: calc(1.625rem + 4.5vw);
 }
 
 *,
@@ -40,4 +45,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bg-background) !important;
   color: var(--body-text-color) !important;
+}
+
+.fs-x-large {
+  font-size: var(--fs-x-large) !important;
+}
+
+.fs-large {
+  font-size: var(--fs-large) !important;
+  font-weight: 601 !important;
+  line-height: 1.1;
+}
+
+.body-center {
+  margin-top: 50px;
+  margin-left: 50px;
 }
