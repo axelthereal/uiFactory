@@ -1,13 +1,14 @@
 <template>
   <header>
   </header>
+  <RouterView />
 </template>
 
 <script>
-import { RouterView } from 'vue-router';
+import { RouterView, RouterLink } from 'vue-router';
 
 export default {
-
+  components: { RouterView, RouterLink }
 }
 </script>
 
